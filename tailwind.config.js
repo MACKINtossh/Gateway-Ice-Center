@@ -13,8 +13,10 @@ export const theme = {
     colors: {
       dark: "#1b1b1b",
       light: "#f5f5f5",
+      glossy: "#bbc2cc",
       primary: "#B63E96",
       primaryDark: "#58E6D9", // 80,230,217
+      gatewayBlue: "#0b3080",
     },
   },
 };

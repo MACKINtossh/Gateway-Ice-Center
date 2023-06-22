@@ -25,19 +25,21 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+    <header className="w-full sticky top-0 bg-glossy px-32 py-2 font-medium flex items-center justify-between z-10 pb-0 drop-shadow-md">
       {/* LEFT SIDE */}
       <nav className="flex-1/3">
         <CustomLink href="/" title="Home" className="mr-4" />
-        <CustomLink href="/page" title="Page" className="mx-4" />
-        <CustomLink href="/page" title="Page" className="mx-4" />
-        <CustomLink href="/page" title="Page" className="ml-4" />
+        <CustomLink href="/page" title="Public Skating" className="mx-4" />
+        <CustomLink href="/page" title="Hockey" className="mx-4" />
+        <CustomLink href="/page" title="Groups" className="ml-4" />
       </nav>
 
-      <Logo className="absolute top-2 flex-1/3" />
+      <div className="left-[50%] top-2 translate-x-[-50%]">
+        <Logo />
+      </div>
 
       {/* RIGHT SIDE */}
-      <nav className="flex items-center justify-center flex-wrap flex-1/3">
+      <nav className="flex items-center justify-center flex-wrap">
         <motion.a
           href="https://twitter.com"
           target={"_blank"}
