@@ -25,15 +25,19 @@ export default function Home() {
               </h1>
             </div>
             <div className="px-10">
-              <p className="my-4 text-lg leading-7 font-semibold">
+              <p className="my-4 px-12 text-lg leading-9 font-semibold">
                 Since 1995, we have been the premier provider of ice skating
                 experiences for families and individuals througout the Fresno
                 Community and beyond. We offer public ice skating, skating
                 lessons, birthday parties, youth hockey, adult hockey,
                 broomball, figure skating, private rentals, special events,
                 holiday shows, competitions, competitive skating and much more.
-                All under one roof! We are proud to be a member of USA Hockey,
-                US Figure Skating and USIRA (US Ice Rink Association)
+                All under one roof! We are proud to be a member of{" "}
+                <span className="text-red-500">
+                  USA Hockey <span className="text-black">,</span> US Figure
+                  Skating <span className="text-black">and</span> USIRA{" "}
+                </span>
+                (US Ice Rink Association)
               </p>
             </div>
           </div>
