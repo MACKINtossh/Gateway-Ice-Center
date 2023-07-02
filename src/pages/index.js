@@ -64,16 +64,16 @@ export default function Home() {
                 ></Image>
               </div>
 
-              <div className="flex flex-col self-center">
+              <div className="flex flex-col flex-wrap self-center p-4 rounded-xl hover:shadow-xl backdrop-blur-sm bg-gray-800/30 border-gray-400/50">
                 <AnimatedText
                   text="Turn Your Dreams into Reality!"
                   className="!text-5xl !text-left text-gatewayBlue"
                 />
-                <p className="my-4 text-base font-medium">
+                <p className="my-4 px-12 text-lg text-center font-semibold">
                   At Gateway Ice Center passion becomes skill, and friends
                   become family!
                 </p>
-                <div className="flex items-center self-start mt-2 w-full">
+                <div className="flex flex-start items-center justify-between px-10 mt-2 w-full">
                   <Link
                     href="/dummy.pdf"
                     target={"_blank"}
@@ -86,7 +86,7 @@ export default function Home() {
                   <Link
                     href="mailto:abcd@gmail.com"
                     target={"_blank"}
-                    className="ml-4 text-lg font-medium capitalize text-dark underline"
+                    className="lex items-center text-center bg-glossy text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                   >
                     Contact Us
                   </Link>
